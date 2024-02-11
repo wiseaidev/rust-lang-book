@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Mathlikeanim RS  with Rust and WebAssembly</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas" width="1920" height="1080"></canvas>
+      <input type="range" min="1" max="100" value="10" id="n-rects" />
+    <div />
+    <script type="module" defer>
+      import start, { changeNRects } from "./mathlikeanim_rs_example.js";
+
+      async function loadWasm() {
+        try {
+          await start();
+          const nRectsInput = document.getElementById('n-rects');
+          nRectsInput.addEventListener('input', () => {
+              changeNRects(nRectsInput.value);
+          });
+        } catch (error) {
+          console.error("Failed to load WebAssembly module:", error);
+        }
+      }
+
+      loadWasm();
+    </script>
+  </body>
+</html>
