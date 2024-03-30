@@ -24,6 +24,24 @@
 
 |===
 
+[cols="3"]
+
+|===
+
+| link:https://www.amazon.in/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737[image:https://img.shields.io/badge/Amazon%20India-000000?logo=amazon&logoColor=white&style=flat-square[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly]]
+
+| link:https://www.amazon.com/Ultimate-Rust-Systems-Programming-Architecting-ebook/dp/B0CYLWK6WR[image:https://img.shields.io/badge/Amazon%20International-000000?logo=amazon&logoColor=white&style=flat-square[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly]]
+
+| link:https://orangeava.com/products/ultimate-rust-for-systems-programming[image:https://img.shields.io/badge/Publisher-000000?logoColor=orange&style=flat-square[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly]]
+
+| link:https://www.amazon.in/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737[image:https://orangeava.com/cdn/shop/files/Ultimate-Rust-for-Systems-Programming-Straight_1459x1800.jpg?v=1710928701[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly, 300]]
+
+| link:https://www.amazon.com/Ultimate-Rust-Systems-Programming-Architecting-ebook/dp/B0CYLWK6WR[image:https://orangeava.com/cdn/shop/files/Ultimate-Rust-for-Systems-Programming-Straight_1459x1800.jpg?v=1710928701[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly, 300]]
+
+| link:https://orangeava.com/products/ultimate-rust-for-systems-programming[image:https://orangeava.com/cdn/shop/files/Ultimate-Rust-for-Systems-Programming-3D_800x760.jpg[Ultimate Rust for Systems Programming: Master Core Programming for Architecting Secure and Reliable Software Systems with Rust and WebAssembly, 390]]
+
+|===
+
 == Welcome
 
 This collection of Jupyter notebooks provides an in-depth journey into the realm of system programming with Rust. Empowered by a Rust kernel at its core, you have the opportunity to delve deeply into the complexities of system programming, capitalizing on the full potential of the Rust programming language. Augmented by a diverse range of Rust libraries, including link:https://github.com/serde-rs/serde[`serde`], link:https://github.com/serde-rs/json[`serde-json`], link:https://github.com/dtolnay/anyhow[`anyhow`], link:https://github.com/dtolnay/thiserror[`thiserror`], link:https://github.com/seanmonstar/reqwest[`reqwest`], link:https://github.com/tokio-rs/tokio[`tokio`], link:https://github.com/seanmonstar/warp[`warp`], link:https://github.com/BurntSushi/rust-csv[`rust-csv`], link:https://github.com/clap-rs/clap[`clap`], link:https://github.com/Detegr/rust-ctrlc[`rust-ctrlc`], link:https://github.com/proptest-rs/proptest[`proptest`], link:https://github.com/crossbeam-rs/crossbeam[`crossbeam`], link:https://github.com/async-rs/async-std[`async-std`], link:https://github.com/rust-lang/regex[`regex`], link:https://github.com/chronotope/chrono[`chrono`], link:https://github.com/golemparts/rppal[`rppal`], link:https://github.com/rust-embedded/rust-i2cdev[`rust-i2cdev`], link:https://github.com/danburkert/fs2-rsv[`fs2-rsv`], link:https://github.com/danburkert/memmap-rs[`memmap-rs`], link:https://github.com/hyperium/hyper[`hyper`], link:https://github.com/rust-random/rand[`rand`], link:https://github.com/rust-num/num[`num`], link:https://github.com/Stebalien/tempfile[`tempfile`], link:https://github.com/la10736/rstest[`rstest`], link:https://github.com/asomers/mockall[`mockall`], link:https://github.com/snapview/tokio-tungstenite[`tokio-tungstenite`], link:https://github.com/rust-lang/futures-rs[`futures-rs`], link:https://github.com/rusqlite/rusqlite[`rusqlite`], link:https://github.com/twistedfall/opencv-rust[`opencv-rust`]
